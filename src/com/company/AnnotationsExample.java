@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
 
     boolean enabled() default false;
 
-}  
+}
 
 @MyAnnotation1
 class X {}
