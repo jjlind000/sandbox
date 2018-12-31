@@ -22,8 +22,8 @@ import java.lang.reflect.Method;
     String[] tags() default "";
 
     boolean enabled() default false;
- 
-}
+
+}  
 
 @MyAnnotation1
 class X {}
