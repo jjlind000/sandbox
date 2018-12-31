@@ -26,7 +26,7 @@ import java.lang.reflect.Method;
 }
 
 @MyAnnotation1
-class X {}
+class X {} 
 
 @MyAnnotation2(enabled = true)
 public class AnnotationsExample
