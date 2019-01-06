@@ -54,7 +54,6 @@ public class ListMockTest2
         value = list.get(0);
         value = list.get(1);
 
-
         //verify(object).get(index) just verifies that get(index) was called; it does not invoke in any way get(index):
         verify(list).get(0);
         verify(list).get(0);
@@ -66,7 +65,6 @@ public class ListMockTest2
         verify(list, atMost(2)).get(anyInt());
         verify(list, never()).get(999);
     }
-
 
     //Test argument capture
     @Test

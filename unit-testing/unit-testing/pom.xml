@@ -46,6 +46,20 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<version>2.1.1.RELEASE</version>
 		</dependency>
+
+        <!-- both of the following are needed if you want to add @Entity to a class -->
+		<dependency>
+            <!-- the h2 db can be queried at http://localhost:8080/h2-console/ -->
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.197</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+        <!-- -->
+
 	</dependencies>
 
 	<build>
