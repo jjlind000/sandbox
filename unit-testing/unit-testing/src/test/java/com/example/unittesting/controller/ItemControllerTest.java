@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
@@ -25,6 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(ItemController.class)
+@TestPropertySource("classpath:test-application.properties")
 public class ItemControllerTest {
 
     @Autowired
@@ -46,7 +48,7 @@ public class ItemControllerTest {
 
         MvcResult result = mockMvc.perform(request)
                 .andExpect(status().isOk())
-                .andExpect(content().string("{\"id\":1,\"name\":\"Dummy item\",\"price\":3.99,\"quantity\":10}"))
+                .andExpect(content().string("{\"id\":1,\"name\":\"Dummy item\",\"price\":3.99,\"quantity\":10,\"value\":0.0}"))
                 //when you verify json using .json method, it's more "intelligent" eg doesn't check for strict string matching
                 .andExpect(content().json("{\"id\":      1,\"name\":\"Dummy item\",\"price\":3.99,\"quantity\":10}"))
                 //.json method also allows you to omit parts of the json object - eg verify just the quantity:
@@ -91,6 +93,27 @@ public class ItemControllerTest {
                                                          ",{\"id\":103,\"name\":\"Dummy3\",\"price\":6.5,\"quantity\":10}]"))
                     .andReturn();
     }
+
+    @Test
+    public void testCreateItem() throws Exception
+    {
+        //when(itemBusinessService.createItem()).then
+        RequestBuilder requestBuilder = MockMvcRequestBuilders.put("/createItem")
+                    .accept(org.springframework.http.MediaType.APPLICATION_JSON)
+                    .content("{\n" +
+                            "    \"id\": 106,\n" +
+                            "    \"name\": \"Dummy6\",\n" +
+                            "    \"price\": 4.5,\n" +
+                            "    \"quantity\": 2,\n" +
+                            "    \"value\": 0\n" +
+                            "}")
+                    .contentType(MediaType.APPLICATION_JSON);
+        MvcResult result = mockMvc.perform(requestBuilder)
+                                  .andExpect(status().isCreated())
+                                  .andReturn();
+
+    }
+
 
 
 }

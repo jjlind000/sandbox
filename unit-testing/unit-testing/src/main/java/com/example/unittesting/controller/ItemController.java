@@ -3,8 +3,9 @@ package com.example.unittesting.controller;
 import com.example.unittesting.model.Item;
 import com.example.unittesting.service.ItemBusinessService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
@@ -53,6 +54,14 @@ public class ItemController {
     public List<Item> getAllItems(){
         return itemBusinessService.getAllItems();
     }
+
+    @PutMapping(path="createItem", produces = {MediaType.APPLICATION_JSON})
+    @ResponseStatus(code = HttpStatus.CREATED)
+    public Item createItem(@RequestBody Item item){
+        item.setValue(item.getPrice()*item.getQuantity());
+        return itemBusinessService.createItem(item);
+    }
+
 
 
 }

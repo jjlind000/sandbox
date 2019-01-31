@@ -16,7 +16,11 @@ public class Item {
     @Transient
     private double value;
 
-    Item(){}
+    public Item(){}
+
+    public Item(int id){
+        this.id=id;
+    }
 
     public Item(int id, String name, double price, int quantity) {
         this.id = id;
@@ -56,6 +60,7 @@ public class Item {
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ", quantity=" + quantity +
+                ", value=" + value +
                 '}';
     }
 }
