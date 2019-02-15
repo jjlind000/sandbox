@@ -12,6 +12,10 @@ public class DataServiceStub implements DataService
         System.out.println("DSS const");
     }
 
+    public void bar(){
+        System.out.println("in dss");
+    }
+
     @Override
     public int[] retrieveAllData()
     {
