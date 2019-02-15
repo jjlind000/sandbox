@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security
+END
+SecurityViolationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security/SecurityViolationException.java
+END
+SecurityAdvice.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security/SecurityAdvice.java
+END
+Secure.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security/Secure.java
+END
+SecurityService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security/SecurityService.java
+END
+SecurityToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/security/SecurityToken.java
+END

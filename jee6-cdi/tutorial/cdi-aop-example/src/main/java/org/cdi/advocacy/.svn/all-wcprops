@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy
+END
+DebugingInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/DebugingInterceptor.java
+END
+LoggingInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/LoggingInterceptor.java
+END
+Logable.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/Logable.java
+END
+AutomatedTellerMachineImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachineImpl.class
+END
+JsonRestAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/JsonRestAtmTransport.java
+END
+AtmMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/AtmMain.java
+END
+Json.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/Json.java
+END
+LogFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/LogFactory.java
+END
+Debugable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/Debugable.java
+END
+ATMTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/ATMTransport.java
+END
+Example.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/Example.class
+END
+StandardAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/StandardAtmTransport.java
+END
+AutomatedTellerMachine.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/178/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachine.java
+END
+AutomatedTellerMachineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/181/tutorial/cdi-aop-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachineImpl.java
+END

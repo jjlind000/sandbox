@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/181/tutorial/cdi-aop-example
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/181/tutorial/cdi-aop-example/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/178/tutorial/cdi-aop-example/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/181/tutorial/cdi-aop-example/pom.xml
+END
