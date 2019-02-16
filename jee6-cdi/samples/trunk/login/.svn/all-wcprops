@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/19/samples/trunk/login
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/14/samples/trunk/login/build.xml
+END
+maven-build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/14/samples/trunk/login/maven-build.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/19/samples/trunk/login/.classpath
+END
+maven-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/14/samples/trunk/login/maven-build.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/samples/trunk/login/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/18/samples/trunk/login/pom.xml
+END

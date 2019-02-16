@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/19/samples/trunk/login/src/main/webapp/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/samples/trunk/login/src/main/webapp/WEB-INF/faces-config.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/samples/trunk/login/src/main/webapp/WEB-INF/beans.xml
+END
+resin-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/samples/trunk/login/src/main/webapp/WEB-INF/resin-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/samples/trunk/login/src/main/webapp/WEB-INF/web.xml
+END

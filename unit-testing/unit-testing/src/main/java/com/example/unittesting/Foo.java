@@ -7,14 +7,37 @@ public class Foo
 {
 
     private DataService dataService;
+    private X x;
 
-    public Foo(){
-        System.out.println("Foo const");
+    public void setX(X x)
+    {
+        System.out.println("setting x");
+        this.x = x;
     }
 
+    public Foo(){System.out.println("Foo const");}
+
+    public Foo(int i){
+        System.out.println("Foo const: " + i);
+    }
+
+//    public Foo(X x){
+//        System.out.println("Foo(X) const");
+//    }
+
+
+    public void printDataService(){
+        System.out.println("My DS is:" + dataService.getClass().getSimpleName());
+    }
+
+    public DataService getDataService()
+    {
+        return dataService;
+    }
 
     public void setDataService(DataService dataService)
     {
+        System.out.println("setting dataService");
         this.dataService = dataService;
     }
 

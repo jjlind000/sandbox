@@ -6,4 +6,6 @@ package com.example.unittesting;
 public interface DataService
 {
     int[] retrieveAllData();
+
+    void bar();
 }

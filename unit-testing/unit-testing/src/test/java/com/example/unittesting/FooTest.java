@@ -34,9 +34,13 @@ public class FooTest
     //USING @InjectMocks and @Mock annotations:
     @InjectMocks //@InjectMocks means: inject mock objects into this object using constructor injection, property injection, or field injection (in that order)
                  //Allows shorthand mock and spy injection. Minimizes repetitive mock and spy injection
-    private Foo foo=new Foo();
+    private Foo foo;
+
     @Mock
-    DataService mockDataService;
+    X x;
+
+    @Mock
+    DataService mockDataService = new DataServiceStub();
 
 /*  //Non-mocking way:
     @Test
@@ -77,6 +81,8 @@ public class FooTest
     @Test
     public void calculateSumUsingMockDataService()
     {
+        foo.printDataService();
+        foo.getDataService().bar();
         when(mockDataService.retrieveAllData()).thenReturn(new int[]{1,2,3,4});
         assertEquals("testing sum...", 10, foo.calculateSumUsingDataService());
     }

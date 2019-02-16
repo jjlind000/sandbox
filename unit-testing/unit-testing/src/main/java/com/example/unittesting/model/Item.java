@@ -5,7 +5,8 @@ import javax.persistence.Id;
 import javax.persistence.Transient;
 
 @Entity
-public class Item {
+public class Item
+{
 
     @Id
     private int id;

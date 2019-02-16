@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/138/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy
+END
+SuperFastAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/SuperFastAtmTransport.java
+END
+Transport.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/Transport.java
+END
+ATMTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/ATMTransport.java
+END
+TransportType.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/TransportType.java
+END
+AutomatedTellerMachineImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachineImpl.java
+END
+Soap.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/Soap.java
+END
+Json.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/Json.java
+END
+SuperFast.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/SuperFast.java
+END
+Example.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/Example.class
+END
+StandardAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/StandardAtmTransport.java
+END
+AutomatedTellerMachine.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachine.java
+END
+SoapAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/SoapAtmTransport.java
+END
+TransportConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/TransportConfig.java
+END
+TransportFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/TransportFactory.java
+END
+AutomatedTellerMachineImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/AutomatedTellerMachineImpl.class
+END
+JsonRestAtmTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/JsonRestAtmTransport.java
+END
+AtmMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/138/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/AtmMain.java
+END
+StandardFrameRelaySwitchingFlubber.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/88/tutorial/cdi-di-example/src/main/java/org/cdi/advocacy/StandardFrameRelaySwitchingFlubber.java
+END
