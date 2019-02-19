@@ -1,9 +1,10 @@
 import java.lang.reflect.Field;
 import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAmount;
+import java.time.temporal.TemporalUnit;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -14,8 +15,25 @@ public class Main {
     public static void main(String[] args)
     {
 
-        f4();
+        f6();
 
+    }
+
+
+    static void f6(){
+        Instant sevenDaysAgo = Instant.now().plus(-7, ChronoUnit.DAYS);
+        System.out.println(sevenDaysAgo);
+        Calendar cal = new GregorianCalendar(2019,1, 10);
+        Date date = cal.getTime();
+        System.out.println(date);
+        System.out.println("is before 7 days ago:" + date.toInstant().isBefore(sevenDaysAgo));
+
+    }
+
+    static void f5(){
+        Map<String, Object> map = new HashMap<>();
+        String s = (String) map.get("SOMEKEY");
+        System.out.println("s:"+s);
     }
 
     static void f4(){
