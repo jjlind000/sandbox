@@ -15,8 +15,15 @@ public class Main {
     public static void main(String[] args)
     {
 
-        f6();
+        testMissingKey();
 
+    }
+
+
+    static void testMissingKey(){
+        Map<String, Object> m = new HashMap<>();
+        Boolean b = m.get("XXX") != null && (Boolean) m.get("XXX") ;
+        System.out.println("b:" + b.toString());
     }
 
 
