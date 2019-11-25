@@ -104,8 +104,27 @@ public class App {
         //testreduction();
         //testcollecting();
         //testpartitioning();
-        testCustomCollector();
+        //testCustomCollector();
+        teststaticmethodreference();
     }
+
+    interface Foobar <T, U> {
+        U foo(T t);
+    }
+
+    private static void teststaticmethodreference() {
+        System.out.println(foo(App::bar, 3));
+        System.out.println(foo(App::bar, -3));
+    }
+
+    private static boolean foo(Foobar<Integer, Boolean> f, int someval){
+        return f.foo(someval);
+    }
+
+    private static Boolean bar(Integer i){
+        return i>0? true : false;
+    }
+
 
     private static void testCustomCollector() {
         List<Dish> dishes = menu.stream().collect(new ToListCollector<Dish>());
