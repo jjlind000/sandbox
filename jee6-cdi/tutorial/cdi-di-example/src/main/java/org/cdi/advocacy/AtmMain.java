@@ -15,7 +15,7 @@ public class AtmMain {
 		SeContainerInitializer initializer = SeContainerInitializer.newInstance();
 		try (SeContainer container = initializer.initialize()) {
 			/** do some stuff :) */
-			AutomatedTellerMachine atm = container.select(AutomatedTellerMachine.class).get();
+			AutomatedTellerMachine atm = container.select(org.cdi.advocacy.AutomatedTellerMachine.class).get();
 			atm.deposit(new BigDecimal("1.00"));
 		}
 	}

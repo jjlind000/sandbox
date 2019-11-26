@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.arquillian.example.GreeterTest" time="2.771" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/test-classes:/home/jasonl/workspaces/sandbox/arquilliantutorial/target/classes:/home/jasonl/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/jasonl/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final-wildfly-1/arquillian-junit-container-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-1/arquillian-junit-core-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-1/arquillian-test-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-1/arquillian-test-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-1/arquillian-core-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-1/arquillian-container-test-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-1/arquillian-container-test-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-1/arquillian-container-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-1/arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-1/arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-1/arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-1/arquillian-config-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-1/arquillian-config-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-1/arquillian-container-test-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar:/home/jasonl/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-container-embedded/8.1.0.Final/wildfly-arquillian-container-embedded-8.1.0.Final.jar:/home/jasonl/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/home/jasonl/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/home/jasonl/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/home/jasonl/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-common/8.1.0.Final/wildfly-arquillian-common-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.1.2.Final-wildfly-1/arquillian-testenricher-cdi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.1.2.Final-wildfly-1/arquillian-testenricher-ejb-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.1.2.Final-wildfly-1/arquillian-testenricher-initialcontext-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.CR2/arquillian-testenricher-osgi-2.1.0.CR2.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.2.Final-wildfly-1/arquillian-testenricher-resource-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final-wildfly-1/arquillian-protocol-servlet-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-testenricher-msc/8.1.0.Final/wildfly-arquillian-testenricher-msc-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-jmx/8.1.0.Final/wildfly-jmx-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jboss-common-core/2.2.22.GA/jboss-common-core-2.2.22.GA.jar:/home/jasonl/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/1.4.6.Final/jboss-marshalling-river-1.4.6.Final.jar:/home/jasonl/.m2/repository/org/jboss/remotingjmx/remoting-jmx/2.0.0.Final/remoting-jmx-2.0.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/xnio/xnio-api/3.2.0.Beta4/xnio-api-3.2.0.Beta4.jar:/home/jasonl/.m2/repository/org/jboss/xnio/xnio-nio/3.2.0.Beta4/xnio-nio-3.2.0.Beta4.jar:/home/jasonl/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.4.Final/jboss-sasl-1.0.4.Final.jar:/home/jasonl/.m2/repository/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar:/home/jasonl/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-1/arquillian-core-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-build-config/8.1.0.Final/wildfly-build-config-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-embedded/8.1.0.Final/wildfly-embedded-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-controller-client/8.1.0.Final/wildfly-controller-client-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-protocol/8.1.0.Final/wildfly-protocol-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jboss-dmr/1.2.0.Final/jboss-dmr-1.2.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/threads/jboss-threads/2.1.1.Final/jboss-threads-2.1.1.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-server/8.1.0.Final/wildfly-server-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-controller/8.1.0.Final/wildfly-controller-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-core-security/8.1.0.Final/wildfly-core-security-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-core-security-api/8.1.0.Final/wildfly-core-security-api-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-domain-http-interface/8.1.0.Final/wildfly-domain-http-interface-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-domain-management/8.1.0.Final/wildfly-domain-management-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-deployment-repository/8.1.0.Final/wildfly-deployment-repository-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-patching/8.1.0.Final/wildfly-patching-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-cli/8.1.0.Final/wildfly-cli-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/aesh/aesh/0.33.11/aesh-0.33.11.jar:/home/jasonl/.m2/repository/org/fusesource/jansi/jansi/1.9/jansi-1.9.jar:/usr/local/java/jdk1.8.0_192/jre/../lib/jconsole.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-platform-mbean/8.1.0.Final/wildfly-platform-mbean-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-process-controller/8.1.0.Final/wildfly-process-controller-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-remoting/8.1.0.Final/wildfly-remoting-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-io/8.1.0.Final/wildfly-io-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-network/8.1.0.Final/wildfly-network-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-version/8.1.0.Final/wildfly-version-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/invocation/jboss-invocation/1.2.1.Final/jboss-invocation-1.2.1.Final.jar:/home/jasonl/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final.jar:/home/jasonl/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.4.6.Final/jboss-marshalling-1.4.6.Final.jar:/home/jasonl/.m2/repository/org/jboss/msc/jboss-msc/1.2.2.Final/jboss-msc-1.2.2.Final.jar:/home/jasonl/.m2/repository/org/jboss/remoting/jboss-remoting/4.0.3.Final/jboss-remoting-4.0.3.Final.jar:/home/jasonl/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.2.GA/jboss-stdio-1.0.2.GA.jar:/home/jasonl/.m2/repository/org/jboss/jboss-vfs/3.2.5.Final/jboss-vfs-3.2.5.Final.jar:/home/jasonl/.m2/repository/io/undertow/undertow-core/1.0.15.Final/undertow-core-1.0.15.Final.jar:/home/jasonl/.m2/repository/org/wildfly/security/wildfly-security-manager/1.0.0.Final/wildfly-security-manager-1.0.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/modules/jboss-modules/1.3.3.Final/jboss-modules-1.3.3.Final.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_192/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/surefire/surefirebooter5234337389374385123.jar /home/jasonl/workspaces/sandbox/arquilliantutorial/target/surefire 2019-02-27T14-13-00_393-jvmRun1 surefire2971274796264813312tmp surefire_02367541752638824728tmp"/>
+    <property name="surefire.test.class.path" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/test-classes:/home/jasonl/workspaces/sandbox/arquilliantutorial/target/classes:/home/jasonl/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/jasonl/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final-wildfly-1/arquillian-junit-container-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-1/arquillian-junit-core-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-1/arquillian-test-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-1/arquillian-test-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-1/arquillian-core-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-1/arquillian-container-test-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-1/arquillian-container-test-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-1/arquillian-container-spi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0-alpha-3/shrinkwrap-descriptors-api-base-2.0.0-alpha-3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-1/arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-1/arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-1/arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-1/arquillian-config-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-1/arquillian-config-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0-alpha-3/shrinkwrap-descriptors-spi-2.0.0-alpha-3.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-1/arquillian-container-test-impl-base-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar:/home/jasonl/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar:/home/jasonl/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-container-embedded/8.1.0.Final/wildfly-arquillian-container-embedded-8.1.0.Final.jar:/home/jasonl/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/home/jasonl/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/home/jasonl/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/home/jasonl/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-common/8.1.0.Final/wildfly-arquillian-common-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-cdi/1.1.2.Final-wildfly-1/arquillian-testenricher-cdi-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-ejb/1.1.2.Final-wildfly-1/arquillian-testenricher-ejb-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-initialcontext/1.1.2.Final-wildfly-1/arquillian-testenricher-initialcontext-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-osgi/2.1.0.CR2/arquillian-testenricher-osgi-2.1.0.CR2.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/testenricher/arquillian-testenricher-resource/1.1.2.Final-wildfly-1/arquillian-testenricher-resource-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final-wildfly-1/arquillian-protocol-servlet-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-arquillian-testenricher-msc/8.1.0.Final/wildfly-arquillian-testenricher-msc-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-jmx/8.1.0.Final/wildfly-jmx-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jboss-common-core/2.2.22.GA/jboss-common-core-2.2.22.GA.jar:/home/jasonl/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/1.4.6.Final/jboss-marshalling-river-1.4.6.Final.jar:/home/jasonl/.m2/repository/org/jboss/remotingjmx/remoting-jmx/2.0.0.Final/remoting-jmx-2.0.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/xnio/xnio-api/3.2.0.Beta4/xnio-api-3.2.0.Beta4.jar:/home/jasonl/.m2/repository/org/jboss/xnio/xnio-nio/3.2.0.Beta4/xnio-nio-3.2.0.Beta4.jar:/home/jasonl/.m2/repository/org/jboss/sasl/jboss-sasl/1.0.4.Final/jboss-sasl-1.0.4.Final.jar:/home/jasonl/.m2/repository/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar:/home/jasonl/.m2/repository/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar:/home/jasonl/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-1/arquillian-core-api-1.1.2.Final-wildfly-1.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-build-config/8.1.0.Final/wildfly-build-config-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-embedded/8.1.0.Final/wildfly-embedded-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-controller-client/8.1.0.Final/wildfly-controller-client-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-protocol/8.1.0.Final/wildfly-protocol-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jboss-dmr/1.2.0.Final/jboss-dmr-1.2.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/threads/jboss-threads/2.1.1.Final/jboss-threads-2.1.1.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-server/8.1.0.Final/wildfly-server-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-controller/8.1.0.Final/wildfly-controller-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-core-security/8.1.0.Final/wildfly-core-security-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-core-security-api/8.1.0.Final/wildfly-core-security-api-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/staxmapper/1.1.0.Final/staxmapper-1.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-domain-http-interface/8.1.0.Final/wildfly-domain-http-interface-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-domain-management/8.1.0.Final/wildfly-domain-management-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-deployment-repository/8.1.0.Final/wildfly-deployment-repository-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-patching/8.1.0.Final/wildfly-patching-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-cli/8.1.0.Final/wildfly-cli-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/aesh/aesh/0.33.11/aesh-0.33.11.jar:/home/jasonl/.m2/repository/org/fusesource/jansi/jansi/1.9/jansi-1.9.jar:/usr/local/java/jdk1.8.0_192/jre/../lib/jconsole.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-platform-mbean/8.1.0.Final/wildfly-platform-mbean-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-process-controller/8.1.0.Final/wildfly-process-controller-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-remoting/8.1.0.Final/wildfly-remoting-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-io/8.1.0.Final/wildfly-io-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-network/8.1.0.Final/wildfly-network-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/wildfly/wildfly-version/8.1.0.Final/wildfly-version-8.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/invocation/jboss-invocation/1.2.1.Final/jboss-invocation-1.2.1.Final.jar:/home/jasonl/.m2/repository/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final.jar:/home/jasonl/.m2/repository/org/jboss/marshalling/jboss-marshalling/1.4.6.Final/jboss-marshalling-1.4.6.Final.jar:/home/jasonl/.m2/repository/org/jboss/msc/jboss-msc/1.2.2.Final/jboss-msc-1.2.2.Final.jar:/home/jasonl/.m2/repository/org/jboss/remoting/jboss-remoting/4.0.3.Final/jboss-remoting-4.0.3.Final.jar:/home/jasonl/.m2/repository/org/jboss/stdio/jboss-stdio/1.0.2.GA/jboss-stdio-1.0.2.GA.jar:/home/jasonl/.m2/repository/org/jboss/jboss-vfs/3.2.5.Final/jboss-vfs-3.2.5.Final.jar:/home/jasonl/.m2/repository/io/undertow/undertow-core/1.0.15.Final/undertow-core-1.0.15.Final.jar:/home/jasonl/.m2/repository/org/wildfly/security/wildfly-security-manager/1.0.0.Final/wildfly-security-manager-1.0.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/home/jasonl/.m2/repository/org/jboss/modules/jboss-modules/1.3.3.Final/jboss-modules-1.3.3.Final.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/jasonl"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/local/java/jdk1.8.0_192/jre"/>
+    <property name="basedir" value="/home/jasonl/workspaces/sandbox/arquilliantutorial"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="jboss.home" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/wildfly-8.1.0.Final"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/surefire/surefirebooter5234337389374385123.jar"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jdk1.8.0_192/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_192/jre/lib/rt.jar:/usr/local/java/jdk1.8.0_192/jre/lib/sunrsasign.jar:/usr/local/java/jdk1.8.0_192/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_192/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_192/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_192/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_192/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_192-b12"/>
+    <property name="user.name" value="jasonl"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-45-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jdk1.8.0_192/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/jasonl/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2018.3.3"/>
+    <property name="java.version" value="1.8.0_192"/>
+    <property name="user.dir" value="/home/jasonl/workspaces/sandbox/arquilliantutorial"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.util.logging.manager" value="org.jboss.logmanager.LogManager"/>
+    <property name="module.path" value="/home/jasonl/workspaces/sandbox/arquilliantutorial/target/wildfly-8.1.0.Final/modules"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.192-b12"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jdk1.8.0_192/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="org.arquillian.example.GreeterTest" classname="org.arquillian.example.GreeterTest" time="2.769">
+    <error message="Cannot deploy: test.war" type="org.jboss.arquillian.container.spi.client.container.DeploymentException">org.jboss.arquillian.container.spi.client.container.DeploymentException: Cannot deploy: test.war
+Caused by: javax.security.sasl.SaslException: Authentication failed: the server presented no authentication mechanisms
+</error>
+    <system-out><![CDATA[INFO  [org.jboss.modules] JBoss Modules version 1.3.3.Final
+INFO  [org.jboss.msc] JBoss MSC version 1.2.2.Final
+INFO  [org.jboss.as] JBAS015899: WildFly 8.1.0.Final "Kenny" starting
+INFO  [org.jboss.as.server] JBAS015888: Creating http management service using socket-binding (management-http)
+INFO  [org.xnio] XNIO version 3.2.2.Final
+INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.2.2.Final
+INFO  [org.jboss.remoting] JBoss Remoting version 4.0.3.Final
+INFO  [org.wildfly.extension.io] WFLYIO001: Worker 'default' has auto-configured to 12 core threads with 96 task threads based on your 6 available processors
+INFO  [org.jboss.as.clustering.infinispan] JBAS010280: Activating Infinispan subsystem.
+INFO  [org.jboss.as.connector.subsystems.datasources] JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+INFO  [org.jboss.as.connector.logging] JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.5.Final)
+INFO  [org.jboss.as.connector.deployers.jdbc] JBAS010417: Started Driver service with driver-name = h2
+INFO  [org.jboss.as.security] JBAS013171: Activating Security Subsystem
+WARN  [org.jboss.as.txn] JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+INFO  [org.jboss.as.jsf] JBAS012615: Activated the following JSF Implementations: [main]
+INFO  [org.jboss.as.webservices] JBAS015537: Activating WebServices Extension
+INFO  [org.jboss.as.naming] JBAS011800: Activating Naming Subsystem
+INFO  [org.jboss.as.security] JBAS013170: Current PicketBox version=4.0.21.Beta1
+INFO  [org.wildfly.extension.undertow] JBAS017502: Undertow 1.0.15.Final starting
+INFO  [org.wildfly.extension.undertow] JBAS017502: Undertow 1.0.15.Final starting
+INFO  [org.jboss.as.mail.extension] JBAS015400: Bound mail session [java:jboss/mail/Default]
+INFO  [org.jboss.as.naming] JBAS011802: Starting Naming Service
+INFO  [org.wildfly.extension.undertow] JBAS017527: Creating file handler for path /home/jasonl/workspaces/sandbox/arquilliantutorial/target/wildfly-8.1.0.Final/welcome-content
+INFO  [org.wildfly.extension.undertow] JBAS017525: Started server default-server.
+INFO  [org.wildfly.extension.undertow] JBAS017531: Host default-host starting
+INFO  [com.arjuna.ats.jbossatx] ARJUNA032010: JBossTS Recovery Service (tag: 9aa71) - JBoss Inc.
+INFO  [com.arjuna.ats.arjuna] ARJUNA012324: Start RecoveryActivators
+INFO  [com.arjuna.ats.arjuna] ARJUNA012296: ExpiredEntryMonitor running at Wed, 27 Feb 2019 14:13:02
+ERROR [org.jboss.msc.service.fail] MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:137)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_192]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_192]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_192]
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_192]
+	at sun.nio.ch.Net.bind(Net.java:433) [rt.jar:1.8.0_192]
+	at sun.nio.ch.Net.bind(Net.java:425) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67) [rt.jar:1.8.0_192]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:175) [xnio-nio-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:242) [xnio-api-3.2.2.Final.jar:3.2.2.Final]
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:112)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:134)
+	... 5 more
+
+INFO  [com.arjuna.ats.arjuna] ARJUNA012343: RecoveryManagerImple is ready. Socket listener is turned off.
+INFO  [com.arjuna.ats.jbossatx] ARJUNA032013: Starting transaction recovery manager
+INFO  [com.arjuna.ats.jbossatx] ARJUNA032017: JBossTS Transaction Service (JTA version - tag: 9aa71) - JBoss Inc.
+INFO  [org.jboss.as.server.deployment.scanner] JBAS015012: Started FileSystemDeploymentService for directory /home/jasonl/workspaces/sandbox/arquilliantutorial/target/wildfly-8.1.0.Final/standalone/deployments
+INFO  [org.jboss.as.connector.subsystems.datasources] JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+ERROR [org.jboss.msc.service.fail] MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:258) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_192]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_192]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_192]
+Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:156) [wildfly-domain-http-interface-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:224) [wildfly-server-8.1.0.Final.jar:8.1.0.Final]
+	... 5 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_192]
+	at sun.nio.ch.Net.bind(Net.java:433) [rt.jar:1.8.0_192]
+	at sun.nio.ch.Net.bind(Net.java:425) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) [rt.jar:1.8.0_192]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67) [rt.jar:1.8.0_192]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:175) [xnio-nio-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:242) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:135) [wildfly-domain-http-interface-8.1.0.Final.jar:8.1.0.Final]
+	... 6 more
+
+ERROR [org.jboss.as.controller.management-operation] JBAS014613: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+    Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use
+    Caused by: java.net.BindException: Address already in use"}}
+ERROR [org.jboss.as.controller.management-operation] JBAS014613: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+ERROR [org.jboss.as.controller.management-operation] JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.BindException: Address already in use"}}
+ERROR [org.jboss.as.controller.management-operation] JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+INFO  [org.jboss.as.controller] JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+
+INFO  [org.jboss.as] JBAS015964: Http management interface is not enabled
+INFO  [org.jboss.as] JBAS015954: Admin console is not enabled
+ERROR [org.jboss.as] JBAS015875: WildFly 8.1.0.Final "Kenny" started (with errors) in 1839ms - Started 172 of 229 services (4 services failed or missing dependencies, 81 services are lazy, passive or on-demand)
+638832d4-46ad-4ae0-8b17-f0e291738e38.jar:
+/org/
+/org/arquillian/
+/org/arquillian/example/
+/org/arquillian/example/Greeter.class
+/org/arquillian/example/PhraseBuilder.class
+/META-INF/
+/META-INF/beans.xml
+INFO  [org.xnio] XNIO version 3.2.0.Beta4
+INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.2.0.Beta4
+INFO  [org.jboss.remoting] JBoss Remoting version 4.0.3.Final
+ERROR [org.jboss.remoting.remote.connection] JBREM000200: Remote connection failed: javax.security.sasl.SaslException: Authentication failed: the server presented no authentication mechanisms
+ERROR [org.jboss.remoting.remote.connection] JBREM000200: Remote connection failed: javax.security.sasl.SaslException: Authentication failed: the server presented no authentication mechanisms
+WARN  [org.jboss.as.arquillian.container.ArchiveDeployer] Cannot undeploy: test.war: org.jboss.as.controller.client.helpers.standalone.ServerDeploymentHelper$ServerDeploymentException: java.lang.RuntimeException: java.net.ConnectException: JBAS012174: Could not connect to http-remoting://127.0.0.1:9990. The connection failed
+	at org.jboss.as.controller.client.helpers.standalone.ServerDeploymentHelper.undeploy(ServerDeploymentHelper.java:109) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.arquillian.container.ArchiveDeployer.undeploy(ArchiveDeployer.java:55) [wildfly-arquillian-common-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.arquillian.container.CommonDeployableContainer.undeploy(CommonDeployableContainer.java:152) [wildfly-arquillian-common-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$4.call(ContainerDeployController.java:205) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$4.call(ContainerDeployController.java:185) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.executeOperation(ContainerDeployController.java:271) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.undeploy(ContainerDeployController.java:184) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createDeploymentContext(ContainerDeploymentContextHandler.java:78) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:57) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:135) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:115) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$2.perform(ContainerDeployController.java:119) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController$2.perform(ContainerDeployController.java:110) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployment(ContainerDeployController.java:263) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.forEachDeployedDeployment(ContainerDeployController.java:249) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.impl.client.container.ContainerDeployController.undeployManaged(ContainerDeployController.java:109) [arquillian-container-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:135) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:115) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:67) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:108) [arquillian-container-test-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:99) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:81) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.test.impl.TestContextHandler.createClassContext(TestContextHandler.java:84) [arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:65) [arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_192]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_192]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_192]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_192]
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:94) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:88) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:135) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:115) [arquillian-core-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.afterClass(EventTestRunnerAdaptor.java:87) [arquillian-test-impl-base-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.junit.Arquillian$3$1.evaluate(Arquillian.java:204) [arquillian-junit-core-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.junit.Arquillian.multiExecute(Arquillian.java:314) [arquillian-junit-core-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.junit.Arquillian.access$100(Arquillian.java:46) [arquillian-junit-core-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.jboss.arquillian.junit.Arquillian$3.evaluate(Arquillian.java:199) [arquillian-junit-core-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:147) [arquillian-junit-core-1.1.2.Final-wildfly-1.jar:1.1.2.Final-wildfly-1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+Caused by: java.lang.RuntimeException: java.net.ConnectException: JBAS012174: Could not connect to http-remoting://127.0.0.1:9990. The connection failed
+	at org.jboss.as.controller.client.impl.AbstractModelControllerClient.executeAsync(AbstractModelControllerClient.java:103) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.helpers.standalone.impl.ModelControllerClientServerDeploymentManager.executeOperation(ModelControllerClientServerDeploymentManager.java:50) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.helpers.standalone.impl.AbstractServerDeploymentManager.execute(AbstractServerDeploymentManager.java:79) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.helpers.standalone.ServerDeploymentHelper.undeploy(ServerDeploymentHelper.java:106) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	... 84 more
+Caused by: java.net.ConnectException: JBAS012174: Could not connect to http-remoting://127.0.0.1:9990. The connection failed
+	at org.jboss.as.protocol.ProtocolConnectionUtils.connectSync(ProtocolConnectionUtils.java:117) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.ProtocolConnectionManager$EstablishingConnection.connect(ProtocolConnectionManager.java:256) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.ProtocolConnectionManager.connect(ProtocolConnectionManager.java:70) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.mgmt.FutureManagementChannel$Establishing.getChannel(FutureManagementChannel.java:204) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.impl.RemotingModelControllerClient.getOrCreateChannel(RemotingModelControllerClient.java:148) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.impl.RemotingModelControllerClient$1.getChannel(RemotingModelControllerClient.java:67) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:117) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.mgmt.ManagementChannelHandler.executeRequest(ManagementChannelHandler.java:92) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.impl.AbstractModelControllerClient.executeRequest(AbstractModelControllerClient.java:236) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.impl.AbstractModelControllerClient.execute(AbstractModelControllerClient.java:141) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.controller.client.impl.AbstractModelControllerClient.executeAsync(AbstractModelControllerClient.java:101) [wildfly-controller-client-8.1.0.Final.jar:8.1.0.Final]
+	... 87 more
+Caused by: javax.security.sasl.SaslException: Authentication failed: the server presented no authentication mechanisms
+	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:388) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:242) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.channels.TranslatingSuspendableChannel.handleReadable(TranslatingSuspendableChannel.java:196) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.channels.TranslatingSuspendableChannel$1.handleEvent(TranslatingSuspendableChannel.java:110) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.ChannelListeners$DelegatingChannelListener.handleEvent(ChannelListeners.java:1092) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66) [xnio-api-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:87) [xnio-nio-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:531) [xnio-nio-3.2.0.Beta4.jar:3.2.0.Beta4]
+	at ...asynchronous invocation...(Unknown Source)
+	at org.jboss.remoting3.EndpointImpl.doConnect(EndpointImpl.java:272) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.jboss.remoting3.EndpointImpl.doConnect(EndpointImpl.java:253) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:351) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:339) [jboss-remoting-4.0.3.Final.jar:4.0.3.Final]
+	at org.jboss.as.protocol.ProtocolConnectionUtils.connect(ProtocolConnectionUtils.java:78) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	at org.jboss.as.protocol.ProtocolConnectionUtils.connectSync(ProtocolConnectionUtils.java:109) [wildfly-protocol-8.1.0.Final.jar:8.1.0.Final]
+	... 97 more
+
+]]></system-out>
+  </testcase>
+</testsuite>

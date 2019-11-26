@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [foo-build / Compile / compile] Found inputs: /home/jasonl/workspaces/sandbox/scala/sbt/foo-build/*.{java,scala},/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/main/java/**/*.{java,scala},/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/main/resources/**/*,/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/main/scala/**/*.{java,scala},/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/main/scala-2.12/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for foo-build/compile...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m

@@ -1,0 +1,13 @@
+#Worked with 2.17 version
+log4j.rootLogger=INFO, loggerId
+#log4j.appender.loggerId.file=target/log4j/roll-by-size/app.log
+log4j.appender.loggerId=org.apache.log4j.rolling.RollingFileAppender
+log4j.appender.loggerId.rollingPolicy=org.apache.log4j.rolling.FixedWindowRollingPolicy
+log4j.appender.loggerId.rollingPolicy.maxIndex=10
+log4j.appender.loggerId.triggeringPolicy=org.apache.log4j.rolling.SizeBasedTriggeringPolicy
+log4j.appender.loggerId.triggeringPolicy.MaxFileSize=10000
+log4j.appender.loggerId.rollingPolicy.FileNamePattern=target/log4j/roll-by-size/worker-%i.log.gz
+log4j.appender.loggerId.rollingPolicy.ActiveFileName=target/log4j/roll-by-size/worker.log
+log4j.appender.loggerId.layout=org.apache.log4j.PatternLayout
+log4j.appender.loggerId.layout.ConversionPattern=%d [%t] %-5p (%F:%L) - %m%n
+#log4j.appender.loggerId.RollingPolicy.FileNamePattern=msg.%d{yyyyMMdd.HHmmss}.gz

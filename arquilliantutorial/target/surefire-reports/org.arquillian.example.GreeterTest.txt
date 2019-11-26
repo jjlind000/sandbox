@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.arquillian.example.GreeterTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.771 s <<< FAILURE! - in org.arquillian.example.GreeterTest
+org.arquillian.example.GreeterTest  Time elapsed: 2.769 s  <<< ERROR!
+org.jboss.arquillian.container.spi.client.container.DeploymentException: Cannot deploy: test.war
+Caused by: javax.security.sasl.SaslException: Authentication failed: the server presented no authentication mechanisms
+

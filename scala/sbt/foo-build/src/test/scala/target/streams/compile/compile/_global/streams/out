@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/test/scala/HelloSpec.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/test/scala/HelloSpec.scala:3:25: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloSpec extends FunSuite with DiagrammedAssertions{[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/test/scala/HelloSpec.scala:3:39: not found: type DiagrammedAssertions[0m
+[0m[[0m[31merror[0m] [0m[0mclass HelloSpec extends FunSuite with DiagrammedAssertions{[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jasonl/workspaces/sandbox/scala/sbt/foo-build/src/test/scala/HelloSpec.scala:4:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("hello should start with an H"){[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
