@@ -20,7 +20,7 @@
         <arquillian-weld-embedded>2.0.1.Final</arquillian-weld-embedded>
         <slf4j>1.6.4</slf4j>
         <weld-core>2.4.8.Final</weld-core>
-        <junit>4.12</junit>
+        <junit>4.13.1</junit>
 
         <!-- Define the version of the JBoss BOMs we want to import to specify
              tested stacks. -->
